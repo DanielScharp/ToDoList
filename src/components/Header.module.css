@@ -1,0 +1,30 @@
+.header {
+    width: 100vw;
+    height: 12.5rem;
+    background-color: var(--gray-700);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    margin-right: 0.75rem;
+}
+
+.header h1 {
+    color: var(--blue, #4EA8DE);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.header h1 span{
+    color: var(--purple-dark, #5E60CE);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}

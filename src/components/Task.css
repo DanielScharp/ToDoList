@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.task {
+    display: flex;
+    
+    width: 44rem;
+    padding: 1rem;
+    align-items: flex-start;
+    gap: 0.75rem;
+    align-self: stretch;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--gray-400, #333);
+    background: var(--gray-500, #262626);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+
+}
